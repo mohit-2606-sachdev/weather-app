@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f785d7cffd.js" crossorigin="anonymous"></script>
+    <title>Wheather App</title>
+</head>
+<body>
+    <div id="bg">
+        <div id="wheather">
+            <div id="search">
+                <input type="text" id="location" placeholder="Search">
+                <button type="submit" id="btn"
+                onclick="myFunction()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <div id="name">Weather in <span id="cN">Tokyo</span></div>
+                <div id="temp">26.52°C</div>
+                <div id="sky"><img src="http://openweathermap.org/img/wn/02d@2x.png" alt="" id="wicon"><div id="text">Scattered Clouds</div></div>
+                </div>
+                <div id="humidity">Humidity: 88% </div>
+                <div id="windspeed">Wind-Speed: 8.23 km/h</div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
